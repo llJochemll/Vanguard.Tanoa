@@ -1,0 +1,17 @@
+author = "Jochem";
+OnLoadName = "Vanguard";
+OnLoadMission = "WIP";
+respawn = 3;
+respawndelay = 5;
+respawnTemplatesWest[] = {"MenuPosition","Spectator"};
+respawnOnStart = 1;
+respawnVehicleDelay = 0;
+disabledAI = true;
+enableDebugConsole = 1;
+showGroupIndicator = 0;
+disableChannels[]={0,1,2,4,6};
+
+#include "Zen_FrameworkFunctions\Zen_DialogSystem\Zen_Dialog.hpp"
+class CfgNotifications {
+    #include "Zen_FrameworkFunctions\Zen_TaskSystem\Zen_TaskNotifications.hpp"
+};
